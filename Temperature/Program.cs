@@ -7,23 +7,24 @@ namespace Temperature
     {
         static void Main(string[] args)
         {
-            Temper t = new Temper();
-            Console.WriteLine("Introduzca la temperatura: ");
-            double temp = t.TemperatureDigit = double.Parse(Console.ReadLine());
-            Console.WriteLine("Introduzca la escala [Kelvin] [Celcius] [Fahrenheit]: ");
-            string scale = t.Scale = Console.ReadLine().ToLower();
-            Console.Write("Convertir a [1]Kelvin [2]Celcius [3]Fahrenheit: ");
-            int answer = int.Parse(Console.ReadLine());
+            Console.WriteLine($"#### TemperatureConverter ####");
+            Console.Write($"[Temperature]: ");
+            double temp = double.Parse(Console.ReadLine());
+            Console.Write($"[Scale]: ");
+            string scale = Console.ReadLine().ToUpper();
+            Console.Write($"[Scale to convert]: ");
+            char answer = char.Parse(Console.ReadLine().ToUpper());
+            Console.WriteLine($"TempConverter {temp}{scale} to {answer}");
 
             switch (answer)
             {
-                case 1:
+                case 'K':
                     Console.WriteLine("To Kelvin: " + Temper.ToKelvin(temp, scale));
                     break;
-                case 2:
+                case 'C':
                     Console.WriteLine("To Celsius: " + Temper.ToCelcius(temp, scale));
                     break;
-                case 3:
+                case 'F':
                     Console.WriteLine("To Fahrenheit: " + Temper.ToFahrenheit(temp, scale));
                     break;
 

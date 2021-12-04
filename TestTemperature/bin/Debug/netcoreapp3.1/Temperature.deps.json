@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Temperature/1.0.0": {
+        "dependencies": {
+          "TemperatureLib": "1.0.0"
+        },
         "runtime": {
           "Temperature.dll": {}
+        }
+      },
+      "TemperatureLib/1.0.0": {
+        "runtime": {
+          "TemperatureLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Temperature/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TemperatureLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

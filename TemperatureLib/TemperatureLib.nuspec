@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>TemperatureLib</id>
+    <version>1.0.0</version>
+    <title>TemperatureLib</title>
+    <authors>DiegoBeras</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/diegoberas/TemperatureApi.git</projectUrl>
+    <iconUrl>https://github.com/diegoberas/TemperatureApi/blob/main/tempicon.jpg</iconUrl>
+    <description>Conversor de temperatura en C#</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright></copyright>
+    <tags>C# API</tags>
+  </metadata>
+</package>

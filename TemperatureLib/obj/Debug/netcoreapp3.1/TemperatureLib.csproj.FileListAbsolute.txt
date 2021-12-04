@@ -1,7 +1,6 @@
 C:\Users\Diego Beras\source\repos\Temperature\TemperatureLib\bin\Debug\netcoreapp3.1\TemperatureLib.deps.json
 C:\Users\Diego Beras\source\repos\Temperature\TemperatureLib\bin\Debug\netcoreapp3.1\TemperatureLib.dll
 C:\Users\Diego Beras\source\repos\Temperature\TemperatureLib\bin\Debug\netcoreapp3.1\TemperatureLib.pdb
-C:\Users\Diego Beras\source\repos\Temperature\TemperatureLib\obj\Debug\netcoreapp3.1\TemperatureLib.csproj.AssemblyReference.cache
 C:\Users\Diego Beras\source\repos\Temperature\TemperatureLib\obj\Debug\netcoreapp3.1\TemperatureLib.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Diego Beras\source\repos\Temperature\TemperatureLib\obj\Debug\netcoreapp3.1\TemperatureLib.AssemblyInfoInputs.cache
 C:\Users\Diego Beras\source\repos\Temperature\TemperatureLib\obj\Debug\netcoreapp3.1\TemperatureLib.AssemblyInfo.cs

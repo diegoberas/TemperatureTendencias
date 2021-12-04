@@ -4,18 +4,16 @@ namespace TemperatureLib
 {
     public class Temper
     {
-        public string Scale { get; set; }
-        public double TemperatureDigit { get; set; }
-        
-
+       
+  
         public static double ToKelvin(double x, string y)
         {
            
-            if (y == "celsius")
+            if (y == "C")
             {
                 return Math.Round(x + 273.15, 2);
             }
-            else if (y == "fahrenheit")
+            else if (y == "F")
             {
                 return Math.Round((x - 32) * 5 / 9 + 273.15, 2);
             }
@@ -29,11 +27,11 @@ namespace TemperatureLib
 
         public static double ToCelcius(double x, string y)
         {
-            if (y == "kelvin")
+            if (y == "K")
             {
                 return Math.Round(x - 273.15, 2);
             }
-            else if (y == "fahrenheit")
+            else if (y == "F")
             {
                 return Math.Round((x - 32) * 5 / 9, 2);
             }
@@ -45,11 +43,11 @@ namespace TemperatureLib
 
         public static double ToFahrenheit(double x, string y)
         {
-            if (y == "celcius")
+            if (y == "C")
             {
                 return Math.Round((x * 9 / 5) + 32, 2);
             }
-            else if (y == "kelvin")
+            else if (y == "K")
             {
                 return Math.Round((x - 273.15) * 9 / 5 + 32, 2);
             }

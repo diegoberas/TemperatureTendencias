@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>DiegoBeras</Authors>
+    <Description>Conversor de temperatura en C#</Description>
   </PropertyGroup>
 
 </Project>
